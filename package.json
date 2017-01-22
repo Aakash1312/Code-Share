@@ -1,0 +1,19 @@
+{
+  "name": "code-share",
+  "main": "./lib/share",
+  "version": "0.0.0",
+  "description": "A simple utility to share code over Local Area Network",
+  "keywords": ["share", "internet", "connection", "LAN"],
+  "activationCommands": {
+    "atom-workspace": "share:toggle"
+  },
+  "repository": "https://github.com/Aakash1312/Code-Share.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "portfinder": "1.0.12"
+  }
+}
