@@ -1,9 +1,14 @@
 {
   "name": "code-share",
   "main": "./lib/share",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple utility to share code over Local Area Network",
-  "keywords": ["share", "internet", "connection", "LAN"],
+  "keywords": [
+    "share",
+    "internet",
+    "connection",
+    "LAN"
+  ],
   "activationCommands": {
     "atom-workspace": "share:toggle"
   },
